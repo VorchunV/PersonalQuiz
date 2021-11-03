@@ -34,7 +34,6 @@ class ResultViewController: UIViewController {
         
         let mostCommonAnswer = filteredResponse.first!.key
         
-        print(mostCommonAnswer)
         
         animalResult.text = String(mostCommonAnswer.rawValue)
         
