@@ -351,6 +351,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="animalResult" destination="DDO-tw-gjP" id="SUM-XL-oPK"/>
+                        <outlet property="animalResultDescription" destination="B9c-ON-8GT" id="1GE-ZH-rtz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LIw-8T-Syq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Brm-Wv-U32" userLabel="Exit" sceneMemberID="exit"/>
