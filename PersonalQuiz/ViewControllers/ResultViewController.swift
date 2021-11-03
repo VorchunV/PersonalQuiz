@@ -8,14 +8,17 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
+    var answerChosen: [Answer]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
+        
     }
 
-    // 1. Передать сюда массив с ответами
+    // 1. Передать сюда массив с ответами +
     // 2. Определить наиболее часто встречающийся тип животного
     // 3. Отобразить результаты в соотвствии с этим животным
     // 4. Избавиться от кнопки возврата назад на экране результатов
